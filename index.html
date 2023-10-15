@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <details><fieldset><h1>JavaScript Code</h1>
+        var Given=[8, 7, 9, 1, 6, 5, 2];<br>
+        const numbers = [8, 7, 9, 1, 6, 5, 2];<br>
+        const descendingOrder = numbers.sort(function(a, b) <br>
+        {<br>
+        return b - a;<br>
+        });<br>
+        document.getElementById("a").innerHTML=`Taken Array=  [${Given}]`;<br>
+        document.getElementById("b").innerHTML=`After Sorted in DescendingOrder= [${descendingOrder}]`;<br>
+        console.log(descendingOrder);
+    </fieldset>
+</details>
+    <h1 id="a"></h1>
+    <h2 id="b"></h2>
+    <script>
+        var Given=[8, 7, 9, 1, 6, 5, 2];
+        const numbers = [8, 7, 9, 1, 6, 5, 2];
+        const descendingOrder = numbers.sort(function(a, b) 
+        {
+        return b - a;
+        });
+        document.getElementById("a").innerHTML=`Taken Array=  [${Given}]`;
+        document.getElementById("b").innerHTML=`After Sorted in DescendingOrder= [${descendingOrder}]`;
+        console.log(descendingOrder);
+
+    </script>
+</body>
+</html>
